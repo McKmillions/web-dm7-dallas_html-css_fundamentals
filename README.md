@@ -47,7 +47,9 @@ HTML5 is the current version
 
 <details>
 <summary>Block-level elements</summary>
+
 HTML elements are usually either "block-level" elements or "inline" elements. A block-level element occupies the entire space of its parent element (container), thereby creating a "block." Browsers typically display the block-level element with a newline both before and after the element. You can visualize them as a stack of boxes.
+
 
 Tag | Description
 ------------ | -------------
@@ -86,39 +88,43 @@ Tag | Description
 
 <details>
 <summary>Inline elements</summary>
+
 An inline element occupies only the space bounded by the tags that define the inline element. By default, inline elements do not begin with new line.
 
-&lt;a&gt; - Anchor.
-&lt;b&gt; - Boldface.
-&lt;big&gt; - Makes text one font size bigger.
-&lt;i&gt; - Italicize.
-&lt;small&gt; - Makes text one font size smaller.
-&lt;tt&gt; - Displays text in browser's default monotype font.
-&lt;abbr&gt; - Abbreviation.
-&lt;cite&gt; - Reference to a creative work.
-&lt;code&gt; - Fragment of computer code.
-&lt;dfn&gt; - Defining instance of a term.
-&lt;em&gt; - Text that has stress emphasis.
-&lt;kbd&gt; - User Input
-&lt;strong&gt; - Gives text strong importance, and is typically displayed in bold.
-&lt;samp&gt; - Element intended to identify sample output from a computer program.
-&lt;time&gt; - Represents either a time on a 24-hour clock or a precise date in the Gregorian calendar
-&lt;var&gt; - A variable in a mathematical expression or a programming context.
-&lt;bdo&gt; - (bidirectional override) is used to override the current directionality of text.
-&lt;br&gt; - Produces a line break in text (carriage-return).
-&lt;img&gt; - Image in the document.
-&lt;map&gt; - Defines an image map (a clickable link area).
-&lt;object&gt; - External resource.
-&lt;q&gt; - Indicates that the enclosed text is a short inline quotation.
-&lt;script&gt; - Used to embed or reference an executable script.
-&lt;span&gt; - A generic inline container for phrasing content. Used to group elements for styling.
-&lt;sub&gt; - A span of text that should be displayed, lower, and often smaller, than the main span of text.
-&lt;sup&gt; - A span of text that should be displayed, higher, and often smaller, than the main span of text.
-&lt;button&gt; - Clickable button.
-&lt;input&gt; - Used to create interactive controls for web-based forms in order to accept data from the user.
-&lt;label&gt; - Caption for an item in a user interface.
-&lt;select&gt; - A control that provides a menu of options.
-&lt;textarea&gt; - Multi-line plain-text editing control.
+
+Tag | Description
+------------ | -------------
+&lt;a&gt; |Anchor.
+&lt;b&gt; | Boldface.
+&lt;big&gt; | Makes text one font size bigger.
+&lt;i&gt; | Italicize.
+&lt;small&gt; -| Makes text one font size smaller.
+&lt;tt&gt; | Displays text in browser's default monotype font.
+&lt;abbr&gt; | Abbreviation.
+&lt;cite&gt; | Reference to a creative work.
+&lt;code&gt; | Fragment of computer code.
+&lt;dfn&gt; | Defining instance of a term.
+&lt;em&gt; | Text that has stress emphasis.
+&lt;kbd&gt; | User Input
+&lt;strong&gt; | Gives text strong importance, and is typically displayed in bold.
+&lt;samp&gt; | Element intended to identify sample output from a computer program.
+&lt;time&gt; | Represents either a time on a 24-hour clock or a precise date in the Gregorian calendar
+&lt;var&gt; | A variable in a mathematical expression or a programming context.
+&lt;bdo&gt; | (bidirectional override) is used to override the current directionality of text.
+&lt;br&gt; | Produces a line break in text (carriage-return).
+&lt;img&gt; | Image in the document.
+&lt;map&gt; | Defines an image map (a clickable link area).
+&lt;object&gt; | External resource.
+&lt;q&gt; | Indicates that the enclosed text is a short inline quotation.
+&lt;script&gt; | Used to embed or reference an executable script.
+&lt;span&gt; | A generic inline container for phrasing content. Used to group elements for styling.
+&lt;sub&gt; | A span of text that should be displayed, lower, and often smaller, than the main span of text.
+&lt;sup&gt; | A span of text that should be displayed, higher, and often smaller, than the main span of text.
+&lt;button&gt; | Clickable button.
+&lt;input&gt; | Used to create interactive controls for web-based forms in order to accept data from the user.
+&lt;label&gt; | Caption for an item in a user interface.
+&lt;select&gt; | A control that provides a menu of options.
+&lt;textarea&gt; | Multi-line plain-text editing control.
 </details>
 
 An example of some of the above elements:
@@ -143,7 +149,7 @@ An example of some of the above elements:
 	</div>
 </div>
 ```
-But this way has a bunch of div's and can be harder to read
+But this way has a bunch of div's and can be harder to read.
 
 You can increase the readability of the html by using section tags.
 ```html
@@ -166,7 +172,7 @@ You can increase the readability of the html by using section tags.
 </section>
 ```
 
-To further increase the readability of the elements you can use Main tag to put your navigation
+To further increase the readability of the elements you can use a **Main** tag to put your navigation in.
 ```html
 <!DOCTYPE html>
 <html>
