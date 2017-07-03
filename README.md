@@ -49,74 +49,74 @@ HTML5 is the current version
 <summary>Block-level elements</summary>
 HTML elements are usually either "block-level" elements or "inline" elements. A block-level element occupies the entire space of its parent element (container), thereby creating a "block." Browsers typically display the block-level element with a newline both before and after the element. You can visualize them as a stack of boxes.
 
-<address> - Contact information.
-<article> - Article content.
-<aside> - Aside content.
-<blockquote> - Long ("block") quotation.
-<canvas> - Drawing canvas.
-<dd> - Describes a term in a description list.
-<div> - Document division.
-<dl> - Description list.
-<dt> - Description list term.
-<fieldset> - Field set label.
-<figcaption> - Figure caption.
-<figure> - Groups media content with a caption (see <figcaption>).
-<footer> - Section or page footer.
-<form> - Input form.
-<h1>, <h2>, <h3>, <h4>, <h5>, <h6> - Heading levels 1-6.
-<header> - Section or page header.
-<hgroup> - Groups header information.
-<hr> - Horizontal rule (dividing line).
-<li> - List item.
-<main> - Contains the central content unique to this document.
-<nav> - Contains navigation links.
-<noscript> - Content to use if scripting is not supported or turned off.
-<ol> - Ordered list.
-<output> - Form output.
-<p> - Paragraph.
-<pre> - Preformatted text.
-<section> - Section of a web page.
-<table> - Table.
-<tfoot> - Table footer.
-<ul> - Unordered list.
-<video> - Video player.
+&lt;address&gt; - Contact information.
+&lt;article&gt; - Article content.
+&lt;aside&gt; - Aside content.
+&lt;blockquote&gt; - Long ("block") quotation.
+&lt;canvas&gt; - Drawing canvas.
+&lt;dd&gt; - Describes a term in a description list.
+&lt;div&gt; - Document division.
+&lt;dl&gt; - Description list.
+&lt;dt&gt; - Description list term.
+&lt;fieldset&gt; - Field set label.
+&lt;figcaption&gt; - Figure caption.
+&lt;figure&gt; - Groups media content with a caption (see &lt;figcaption&gt;).
+&lt;footer&gt; - Section or page footer.
+&lt;form&gt; - Input form.
+&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt; - Heading levels 1-6.
+&lt;header&gt; - Section or page header.
+&lt;hgroup&gt; - Groups header information.
+&lt;hr&gt; - Horizontal rule (dividing line).
+&lt;li&gt; - List item.
+&lt;main&gt; - Contains the central content unique to this document.
+&lt;nav&gt; - Contains navigation links.
+&lt;noscript&gt; - Content to use if scripting is not supported or turned off.
+&lt;ol&gt; - Ordered list.
+&lt;output&gt; - Form output.
+&lt;p&gt; - Paragraph.
+&lt;pre&gt; - Preformatted text.
+&lt;section&gt; - Section of a web page.
+&lt;table&gt; - Table.
+&lt;tfoot&gt; - Table footer.
+&lt;ul&gt; - Unordered list.
+&lt;video&gt; - Video player.
 </details>
 
 <details>
 <summary>Inline elements</summary>
 An inline element occupies only the space bounded by the tags that define the inline element. By default, inline elements do not begin with new line.
 
-<a> - Anchor.
-<b> - Boldface.
-<big> - Makes text one font size bigger.
-<i> - Italicize.
-<small> - Makes text one font size smaller.
-<tt> - Displays text in browser's default monotype font.
-<abbr> - Abbreviation.
-<cite> - Reference to a creative work.
-<code> - Fragment of computer code.
-<dfn> - Defining instance of a term.
-<em> - Text that has stress emphasis.
-<kbd> - User Input
-<strong> - Gives text strong importance, and is typically displayed in bold.
-<samp> - Element intended to identify sample output from a computer program.
-<time> - Represents either a time on a 24-hour clock or a precise date in the Gregorian calendar
-<var> - A variable in a mathematical expression or a programming context.
-<bdo> - (bidirectional override) is used to override the current directionality of text.
-<br> - Produces a line break in text (carriage-return).
-<img> - Image in the document.
-<map> - Defines an image map (a clickable link area).
-<object> - External resource.
-<q> - Indicates that the enclosed text is a short inline quotation.
-<script> - Used to embed or reference an executable script.
-<span> - A generic inline container for phrasing content. Used to group elements for styling.
-<sub> - A span of text that should be displayed, lower, and often smaller, than the main span of text.
-<sup> - A span of text that should be displayed, higher, and often smaller, than the main span of text.
-<button> - Clickable button.
-<input> - Used to create interactive controls for web-based forms in order to accept data from the user.
-<label> - Caption for an item in a user interface.
-<select> - A control that provides a menu of options.
-<textarea> - Multi-line plain-text editing control.
+&lt;a&gt; - Anchor.
+&lt;b&gt; - Boldface.
+&lt;big&gt; - Makes text one font size bigger.
+&lt;i&gt; - Italicize.
+&lt;small&gt; - Makes text one font size smaller.
+&lt;tt&gt; - Displays text in browser's default monotype font.
+&lt;abbr&gt; - Abbreviation.
+&lt;cite&gt; - Reference to a creative work.
+&lt;code&gt; - Fragment of computer code.
+&lt;dfn&gt; - Defining instance of a term.
+&lt;em&gt; - Text that has stress emphasis.
+&lt;kbd&gt; - User Input
+&lt;strong&gt; - Gives text strong importance, and is typically displayed in bold.
+&lt;samp&gt; - Element intended to identify sample output from a computer program.
+&lt;time&gt; - Represents either a time on a 24-hour clock or a precise date in the Gregorian calendar
+&lt;var&gt; - A variable in a mathematical expression or a programming context.
+&lt;bdo&gt; - (bidirectional override) is used to override the current directionality of text.
+&lt;br&gt; - Produces a line break in text (carriage-return).
+&lt;img&gt; - Image in the document.
+&lt;map&gt; - Defines an image map (a clickable link area).
+&lt;object&gt; - External resource.
+&lt;q&gt; - Indicates that the enclosed text is a short inline quotation.
+&lt;script&gt; - Used to embed or reference an executable script.
+&lt;span&gt; - A generic inline container for phrasing content. Used to group elements for styling.
+&lt;sub&gt; - A span of text that should be displayed, lower, and often smaller, than the main span of text.
+&lt;sup&gt; - A span of text that should be displayed, higher, and often smaller, than the main span of text.
+&lt;button&gt; - Clickable button.
+&lt;input&gt; - Used to create interactive controls for web-based forms in order to accept data from the user.
+&lt;label&gt; - Caption for an item in a user interface.
+&lt;select&gt; - A control that provides a menu of options.
+&lt;textarea&gt; - Multi-line plain-text editing control.
 </details>
 
 An example of some of the above elements:
@@ -201,6 +201,39 @@ To further increase the readability of the elements you can use Main tag to put 
 <footer></footer>
 </body>
 </html>
+```
+### Required elements for HTML
+
+The declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. When omitted, browsers tend to use a different rendering mode, the browser may decide to automatically go into Quirks or Strict Mode. In HTML5 this is the only doctype you'll need.
+
+This is the first thing the browser looks for then it proceeds down
+```html
+<!DOCTYPE html>
+```
+Wraps the entire document
+```html
+<!DOCTYPE html>
+<html>
+</html>
+```
+
+Title
+```html
+<title>Look up at the top of the browser.</title>
+```
+
+Link tags
+Standard to have stylesheets at the top for loading the page as quickly as possible
+```html
+<link rel="stylesheet" href="/css/style.css">
+```
+
+Script tags
+To link to external javascript scripts. HTML reads top to bottom. It's standard to put these at the bottom of the document.
+```html
+<script type="text/javascript">
+
+</script>
 ```
 
 ## CSS properties
