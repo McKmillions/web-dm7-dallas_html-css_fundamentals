@@ -98,7 +98,7 @@ Tag | Description
 &lt;b&gt; | Boldface.
 &lt;big&gt; | Makes text one font size bigger.
 &lt;i&gt; | Italicize.
-&lt;small&gt; -| Makes text one font size smaller.
+&lt;small&gt; | Makes text one font size smaller.
 &lt;tt&gt; | Displays text in browser's default monotype font.
 &lt;abbr&gt; | Abbreviation.
 &lt;cite&gt; | Reference to a creative work.
