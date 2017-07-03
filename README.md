@@ -231,13 +231,13 @@ Title
 ```
 
 Link tags
-Standard to have stylesheets at the top for loading the page as quickly as possible
+It's tandard to have stylesheets at the top for loading the styled page as quickly as possible
 ```html
 <link rel="stylesheet" href="/css/style.css">
 ```
 
 Script tags
-To link to external javascript scripts. HTML reads top to bottom. It's standard to put these at the bottom of the document.
+To link to external javascript scripts. HTML reads top to bottom. It's standard to put these at the bottom of the document to increase the perceived load time of the page.
 ```html
 <script type="text/javascript">
 
