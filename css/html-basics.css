@@ -103,11 +103,11 @@ pre code:after {
   color: #8130c9;
 }
 
-.token.keyword {
+.open-close {
   color: #09a3d5;
 }
 
-.token.operator {
+.tag {
   color: #e4514f;
 }
 

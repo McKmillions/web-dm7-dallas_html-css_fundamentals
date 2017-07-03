@@ -49,37 +49,39 @@ HTML5 is the current version
 <summary>Block-level elements</summary>
 HTML elements are usually either "block-level" elements or "inline" elements. A block-level element occupies the entire space of its parent element (container), thereby creating a "block." Browsers typically display the block-level element with a newline both before and after the element. You can visualize them as a stack of boxes.
 
-&lt;address&gt; - Contact information.
-&lt;article&gt; - Article content.
-&lt;aside&gt; - Aside content.
-&lt;blockquote&gt; - Long ("block") quotation.
-&lt;canvas&gt; - Drawing canvas.
-&lt;dd&gt; - Describes a term in a description list.
-&lt;div&gt; - Document division.
-&lt;dl&gt; - Description list.
-&lt;dt&gt; - Description list term.
-&lt;fieldset&gt; - Field set label.
-&lt;figcaption&gt; - Figure caption.
-&lt;figure&gt; - Groups media content with a caption (see &lt;figcaption&gt;).
-&lt;footer&gt; - Section or page footer.
-&lt;form&gt; - Input form.
-&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt; - Heading levels 1-6.
-&lt;header&gt; - Section or page header.
-&lt;hgroup&gt; - Groups header information.
-&lt;hr&gt; - Horizontal rule (dividing line).
-&lt;li&gt; - List item.
-&lt;main&gt; - Contains the central content unique to this document.
-&lt;nav&gt; - Contains navigation links.
-&lt;noscript&gt; - Content to use if scripting is not supported or turned off.
-&lt;ol&gt; - Ordered list.
-&lt;output&gt; - Form output.
-&lt;p&gt; - Paragraph.
-&lt;pre&gt; - Preformatted text.
-&lt;section&gt; - Section of a web page.
-&lt;table&gt; - Table.
-&lt;tfoot&gt; - Table footer.
-&lt;ul&gt; - Unordered list.
-&lt;video&gt; - Video player.
+Tag | Description
+------------ | -------------
+&lt;address&gt; | Contact information.
+&lt;article&gt; | Article content.
+&lt;aside&gt; | Aside content.
+&lt;blockquote&gt; | Long ("block") quotation.
+&lt;canvas&gt; | Drawing canvas.
+&lt;dd&gt; | Describes a term in a description list.
+&lt;div&gt; | Document division.
+&lt;dl&gt; | Description list.
+&lt;dt&gt; | Description list term.
+&lt;fieldset&gt; | Field set label.
+&lt;figcaption&gt; | Figure caption.
+&lt;figure&gt; | Groups media content with a caption (see &lt;figcaption&gt;).
+&lt;footer&gt; | Section or page footer.
+&lt;form&gt; | Input form.
+&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt; | Heading levels 1-6.
+&lt;header&gt; | Section or page header.
+&lt;hgroup&gt; | Groups header information.
+&lt;hr&gt; | Horizontal rule (dividing line).
+&lt;li&gt; | List item.
+&lt;main&gt; | Contains the central content unique to this document.
+&lt;nav&gt; | Contains navigation links.
+&lt;noscript&gt; | Content to use if scripting is not supported or turned off.
+&lt;ol&gt; | Ordered list.
+&lt;output&gt; | Form output.
+&lt;p&gt; | Paragraph.
+&lt;pre&gt; | Preformatted text.
+&lt;section&gt; | Section of a web page.
+&lt;table&gt; | Table.
+&lt;tfoot&gt; | Table footer.
+&lt;ul&gt; | Unordered list.
+&lt;video&gt; | Video player.
 </details>
 
 <details>
