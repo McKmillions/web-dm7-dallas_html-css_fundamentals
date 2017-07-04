@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- The character encoding (charset) declaration is also very simple. The default character encoding in HTML5 is UTF-8 -->
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/html-basics.css">
+</head>
+
+<body>
+
+  <div class="window">
+    <div class="icons"><span></span></div>
+    <div class="title">Specifying and Using Styles Example</div>
+    <pre class="lang-html">
+        <span class="open-close">&lt;</span><span class="tag">!DOCTYPE html</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">html</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">head</span><span class="open-close">&gt;</span>
+          <span class="open-close">&lt;</span><span class="tag">title</span><span class="open-close">&gt;</span>HTML &amp; CSS Fundamentals (web-dm7-dallas)<span class="open-close">&lt;</span><span class="tag">/title</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">link rel="stylesheet" type="text/css" href="<span class="inline-style">css/your_css_file_name.css</span>"</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">style</span><span class="open-close">&gt;</span><span class="inline-style">
+          .pink{ color:#FFB6C1; }
+          #hot-pink{ color: #FF69B4; }
+        </span><span class="open-close">&lt;</span><span class="tag"><span class="tag">/style</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">/head</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">body</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">main</span><span class="open-close">&gt;</span>
+          <span class="open-close">&lt;</span><span class="tag">header</span><span class="open-close">&gt;</span>
+            <span class="open-close">&lt;</span><span class="tag">nav</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">ul</span><span class="open-close">&gt;</span>
+                <span class="open-close">&lt;</span><span class="tag">li</span><span class="open-close">&gt;</span>Home<span class="open-close">&lt;</span><span class="tag">/li</span><span class="open-close">&gt;</span>
+                <span class="open-close">&lt;</span><span class="tag">li</span><span class="open-close">&gt;</span>About Me<span class="open-close">&lt;</span><span class="tag">/li</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">/ul</span><span class="open-close">&gt;</span>
+            <span class="open-close">&lt;</span><span class="tag">/nav</span><span class="open-close">&gt;</span>
+          <span class="open-close">&lt;</span><span class="tag">/header</span><span class="open-close">&gt;</span>
+          <span class="open-close">&lt;</span><span class="tag">section</span><span class="open-close">&gt;</span>
+            <span class="open-close">&lt;</span><span class="tag">div style="<span class="inline-style">background-color: #fff;</span>"</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">h1 class="<span class="inline-style">pink</span>" id="<span class="inline-style">hot-pink</span>" style="<span class="inline-style">color: #FF1493;</span>"</span><span class="open-close">&gt;</span> Heading h1 <span class="open-close">&lt;</span><span class="tag">/h1</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">h2</span><span class="open-close">&gt;</span> Heading h2 <span class="open-close">&lt;</span><span class="tag">/h2</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">h3</span><span class="open-close">&gt;</span> Heading h3 <span class="open-close">&lt;</span><span class="tag">/h3</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">h4</span><span class="open-close">&gt;</span> Heading h4 <span class="open-close">&lt;</span><span class="tag">/h4</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">h5</span><span class="open-close">&gt;</span> Heading h5 <span class="open-close">&lt;</span><span class="tag">/h5</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">h6</span><span class="open-close">&gt;</span> Heading h6 <span class="open-close">&lt;</span><span class="tag">/h6</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">p</span><span class="open-close">&gt;</span> Paragraph : This is a paragraph <span class="open-close">&lt;</span><span class="tag">/p</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">ul</span><span class="open-close">&gt;</span>
+                <span class="open-close">&lt;</span><span class="tag">li</span><span class="open-close">&gt;</span> List Item <span class="open-close">&lt;</span><span class="tag">/li</span><span class="open-close">&gt;</span>
+                <span class="open-close">&lt;</span><span class="tag">li</span><span class="open-close">&gt;</span> List Item <span class="open-close">&lt;</span><span class="tag">/li</span><span class="open-close">&gt;</span>
+                <span class="open-close">&lt;</span><span class="tag">li</span><span class="open-close">&gt;</span> List Item <span class="open-close">&lt;</span><span class="tag">/li</span><span class="open-close">&gt;</span>
+              <span class="open-close">&lt;</span><span class="tag">/ul</span><span class="open-close">&gt;</span>
+            <span class="open-close">&lt;</span><span class="tag">/div</span><span class="open-close">&gt;</span>
+          <span class="open-close">&lt;</span><span class="tag">/section</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">/main</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">footer</span><span class="open-close">&gt;</span><span class="open-close">&lt;</span><span class="tag">/footer</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">/body</span><span class="open-close">&gt;</span>
+        <span class="open-close">&lt;</span><span class="tag">/html</span><span class="open-close">&gt;</span>
+    </pre>
+  </div>
+  <div class="state">
+    <button onclick="window.location.href='css-basics-1.html'">&lt;</button>
+    <button onclick="window.location.href='css-basics-3.html'">&gt;</button>
+  </div>
+
+</body>
+
+</html>

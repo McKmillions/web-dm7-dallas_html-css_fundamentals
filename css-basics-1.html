@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- The character encoding (charset) declaration is also very simple. The default character encoding in HTML5 is UTF-8 -->
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/html-basics.css">
+</head>
+
+<body>
+
+  <div class="window">
+    <div class="icons"><span></span></div>
+    <div class="title">What is CSS?</div>
+    <div class="code-window">
+			<div class="code">
+				<h1 style="padding-bottom: 15px;"><u>CSS</u></h1>
+				<span class="open-close"><b>C</b></span> - <span class="tag">Cascading</span> <span class="open-close" style="padding-left: 10px;"><b>S</b></span> - <span class="tag">Style</span> <span class="open-close" style="padding-left: 10px;"><b>S</b></span> - <span class="tag">Sheets</span><br><br>
+				<p style="padding-bottom: 15px;"><span class="tag">CSS</span> is short for Cascading Style Sheets, it is the way to get the preffered look of a website. If HTML is the Skeleton then CSS is the Clothes. It allows you to change colors, size and position of text and tags.</p>
+
+				<p style="padding-bottom: 35px;">The style sheets define the colour, size and position of text and other HTML tags, while the HTML files define the content and how it is organised. Separating them allows you to change the colour scheme without having to rewrite your entire web site.</p>
+
+				<h2 style="padding-bottom: 15px;"><u>Specifying and Using Styles</u></h2>
+				<b style="padding-bottom: 5px;">There are three main ways of including a style sheet for a web page or site:</b>
+
+				<ol style="padding: 0 0 15px 2.5em">
+					<li style="padding-bottom: 5px;">Setting the style="?" attribute of a tag, called inline styles</li>
+						<ul>
+							<li style="padding-bottom: 5px;">Inline elements only affect their respective element.</li>
+						</ul>
+					<li style="padding-bottom: 5px;">Using the &lt;sytle&gt; tag within the HTML header tag</li>
+					<li style="padding-bottom: 5px;">Using the &lt;link&gt; tag in the &lt;head&gt; to link to an external CSS file</li>
+				</ol>
+
+				<p style="padding-bottom: 15px;">The main difference between the three options is specificity. Specificity determines when a style overrides the other. Inline styles have the highest specificity. This can make them hard to control (you should avoid !important as well for the same reason).  Inline styles should only be used as a last resort.</p>
+
+				<p>I prefer to use linked stylesheets because:</p>
+				<ul style="padding-left: 30px;">
+					<li>The stylesheet can be cached by browsers for performance</li>
+					<li>Easier to maintain and reuse</li>
+				</ul>
+
+				<h3 style="padding: 15px 0 5px 0;"><u>How does it work?</u></h3>
+				<p>The browser scans the HTML document and finds the content and pairs it with the stylesheet using the DOM (Document Object Model).</p>
+			</div>
+    </div>
+  </div>
+  <div class="state">
+    <button onclick="window.location.href='html-basics-8.html'">&lt;</button>
+    <button onclick="window.location.href='css-basics-2.html'">&gt;</button>
+  </div>
+
+</body>
+
+</html>
